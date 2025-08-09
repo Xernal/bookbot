@@ -5,7 +5,7 @@ from stats import charactercount
 from stats import sort_on
 from stats import sort_dict
 
-if sys.argv[1] == False:
+if len(sys.argv) != 2:
     print("Usage: python3 main.py <path_to_book>")
     sys.exit(1)
 
